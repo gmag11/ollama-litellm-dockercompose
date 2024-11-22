@@ -3,7 +3,7 @@ model_list:
     litellm_params:
       model: github/gpt-4o
       api_key: os.environ/GITHUB_API_KEY
-  - model_name: litellm/github/llama3.2-90B-vision
+  - model_name: litellm/github/llama3.2-90B-vision-instruct
     litellm_params:
       model: github/llama-3.2-90b-vision-instruct
       api_key: os.environ/GITHUB_API_KEY
